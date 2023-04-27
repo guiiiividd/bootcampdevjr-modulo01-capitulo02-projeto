@@ -7,6 +7,8 @@
 body{
     background-color: #CCCCCC;
     color: #FFFFFF;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 main{
@@ -14,16 +16,30 @@ main{
     margin: 16px auto;
     background-image: linear-gradient(#1D0C20, #651F71);
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
 }
 
 header, section, footer{
     margin-bottom: 20px;
 }
 
-.primary-title{}
+.primary-title{
+    text-transform: uppercase;
+    text-align: center;
+    color: #FECD23;
+    margin-bottom: 32px;
 
-.description{}
+    font-size: 35px;
+}
+
+.description{
+    margin-bottom: 40px;
+}
+
+.description p{
+    text-align: center;
+    margin-top: 10px;
+}
 
 .secondary-title{}
 
