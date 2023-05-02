@@ -141,3 +141,14 @@ footer a{
     font-weight: bold;
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 620px){
+    main{
+        width: 90%;
+    }
+
+    .box-cards{
+        flex-direction: column;
+    }
+}
